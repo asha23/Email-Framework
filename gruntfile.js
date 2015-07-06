@@ -87,7 +87,7 @@ module.exports = function(grunt) {
         mailgun: {
           mailer: {
             options: {
-              key: 'key-b7e79b06c66e3762e7ed2dd4cd996d79', // Enter your Mailgun API key here
+              key: '', // Enter your Mailgun API key here
               sender: 'ash_whiting@hotmail.com', // Change this
               recipient: 'as ', // Change this
               subject: 'This is a test email'
@@ -100,7 +100,7 @@ module.exports = function(grunt) {
         cloudfiles: {
           prod: {
             'user': 'akaconnect', // Change this
-            'key': 'd630efa6e9a76f8396026617669a7b6d', // Change this
+            'key': '', // Change this
             'region': 'LON', // Might need to change this
             'upload': [{
               'container': 'emails', // Change this
