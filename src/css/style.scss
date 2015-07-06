@@ -1,0 +1,46 @@
+/**
+ * Do not touch imports!
+ *
+ * Edit _settings.scss to change Ink defaults. All custom styles should sit in this file, style.css
+ */
+@import "settings";
+@import "../../vendor/css/ink.scss";
+
+.black {
+	background:#000000;
+}
+
+.white {
+	color:#FFFFFF!important;
+}
+
+.button-pad {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.fs-16 {
+	font-size:16px;
+}
+
+.hr {
+	width:90%;
+	text-align:Center;
+}
+
+.center {
+	text-align:center!important;
+}
+
+.wrapper {
+	padding-top:0!important;
+}
+
+.top-pad {
+	padding-top:10px!important;
+}
+
+center {
+	min-width:0!important;
+
+}
